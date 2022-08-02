@@ -13,8 +13,8 @@ import tkinter as tk                     # 在Python 3.x 匯入該tkinter 函式
 win = tk.Tk()                            # 建立GUI 應用程式的主視窗
 win.wm_title("Product Information")      # 設定主視窗標題
 win.resizable(width=False, height=False) # 設定主視窗不可以被調整大小
-win.minsize(width=640, height=480)       # 最小尺寸
-win.maxsize(width=640, height=480)       # 最大尺寸
+win.minsize(width=660, height=480)       # 最小尺寸
+win.maxsize(width=660, height=480)       # 最大尺寸
 
 label1 =tk.Label(win,text="product name：yeezy boost")  # 建立文字
 label1.place(x=20, y=60)                 # 指定元件位置 x=20, y=60 的位置
