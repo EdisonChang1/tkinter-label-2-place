@@ -7,6 +7,7 @@
 上面顯示label
 產品的資料
 """
+# 123
 print("1.")
 import tkinter as tk                     # 在Python 3.x 匯入該tkinter 函式庫
 
